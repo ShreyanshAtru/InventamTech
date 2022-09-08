@@ -1,0 +1,15 @@
+For chat system on Danggo project, can use django channels, redis server.
+Django Channels :Channels is a project that takes Django and extends
+				 its abilities beyond HTTP - to handle WebSockets, chat protocols,etc. It's built on the python specification
+				 called ASGI.
+
+First create a chat app in project
+Have to add a html file where we can nevigate the chat room and
+user can add or get access to the one.
+
+Then Setting up a chat server after creating view and adding urls to both urls.py.
+
+(The common convention to distinguish the HTTP connection from 
+WebSockets is to use the ws protocol.)
+
+Creating Websockets connection
