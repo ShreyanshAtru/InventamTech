@@ -16,3 +16,18 @@ Make a virtual environment :
   
 To run the project start the server go in the project file where manage.py file and run this command 
   python manage.py runserver   
+  
+To register the user :
+http://127.0.0.1:8000/customer/register/   # Rest api for register a user 
+
+To login api
+http://127.0.0.1:8000/customer/login
+
+for a non staff user(customer) to see the restaurat details 
+http://127.0.0.1:8000/home_page
+
+For admin page 
+http://127.0.0.1:8000/admin/
+
+
+
